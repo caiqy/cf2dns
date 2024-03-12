@@ -4,9 +4,8 @@ on:
   push:
     branches: 
       - master
-      
   schedule:
-    - cron: '*/18 * * * *'
+    - cron: '*/30 * * * *'
 
 env:
   UPDATE_IPV4: true
