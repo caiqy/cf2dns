@@ -10,7 +10,7 @@ from dns.aliyun import AliApi
 from dns.huawei import HuaWeiApi
 import sys
 
-#可以从https://shop.hostmonit.com获取1
+#可以从https://shop.hostmonit.com获取
 KEY = os.environ["KEY"]  #"o1zrmHAF"
 #CM:移动 CU:联通 CT:电信 AB:境外 DEF:默认
 #修改需要更改的dnspod域名和子域名
